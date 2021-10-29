@@ -1,4 +1,4 @@
-service/popularity_sort/.env
+service/.env
 service/token.json
 service/population_list.csv
 venv
