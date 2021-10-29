@@ -1,3 +1,6 @@
+from django.shortcuts import render
+
+# Create your views here.
 import json
 import requests
 import secrets
@@ -94,7 +97,8 @@ def sort_popularity(manga_list, access_token: str):
     path = cwd + "/population_list.csv"
     popularity_df.to_csv(path)  # writes csv to current directory
 
-if __name__ == '__main__':
+#if __name__ == '__main__':
+def main(request):
     code_verifier = code_challenge = get_new_code_verifier()
     print_new_authorisation_url(code_challenge)
 
