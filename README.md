@@ -1,5 +1,5 @@
 # mal-pop-sort
-sorts manga list by popularity to see the most obscure manga you've read for funzies. should only require pandas
+sorts manga list by popularity to see the most obscure manga you've read for funzies.
 
 how it works (for now):
 1. create .env and add your mal client id/secret. when i'm not lazy it'll have its own service and interface and you don't need to add in your mal api ids
