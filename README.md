@@ -6,4 +6,4 @@ how it works (for now):
 2. run the program
 3. click the link in the console and authorize the app
 4. once authorized, the url should have a code parameter, copy paste that id in the console
-5. list output as a csv file as 'popularity_list.csv.' eventually it'll be exposed thru the web without the need of a file.
+5. list output as a csv file as 'popularity_list.csv.' eventually it'll be exposed through the web without the need of a file.
